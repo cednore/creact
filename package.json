@@ -1,0 +1,17 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "Advanced Task Management System - Coding Challenge",
+  "scripts": {
+    "start:backend": "cd backend/TodoApi && dotnet run",
+    "start:frontend": "cd frontend/todo-app && npm start",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "install:frontend": "cd frontend/todo-app && npm install",
+    "build:frontend": "cd frontend/todo-app && npm run build",
+    "test:frontend": "cd frontend/todo-app && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "private": true
+} 

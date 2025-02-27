@@ -1,0 +1,45 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+.vscode/
+*.swp
+*.*~
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# React
+node_modules/
+/frontend/todo-app/build
+/frontend/todo-app/.env.local
+/frontend/todo-app/.env.development.local
+/frontend/todo-app/.env.test.local
+/frontend/todo-app/.env.production.local
+/frontend/todo-app/npm-debug.log*
+/frontend/todo-app/yarn-debug.log*
+/frontend/todo-app/yarn-error.log*
+/frontend/todo-app/.pnp
+/frontend/todo-app/.pnp.js
+/frontend/todo-app/coverage
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.idea/
+*.sln.iml 
